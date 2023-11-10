@@ -5,10 +5,11 @@
 const parolaUno = prompt('scrivi la parola uno');
 const parolaDue = prompt('scrivi la parola due');
 
+// valuto se la parola uno è piu lunga
 if(parolaUno > parolaDue){
     console.log(parolaUno);
     console.log(parolaDue);
-}else{
+}else{          // valuto se la parola due è piu lunga
     console.log(parolaDue);
     console.log(parolaUno);
 }
