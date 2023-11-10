@@ -6,10 +6,12 @@ const parolaUno = prompt('scrivi la parola uno');
 const parolaDue = prompt('scrivi la parola due');
 
 // valuto se la parola uno è piu lunga
-if(parolaUno > parolaDue){
+if(parolaUno.length > parolaDue.length){
     console.log(parolaDue);
     console.log(parolaUno);
-}else{          // valuto se la parola due è piu lunga
+}else if(parolaUno.length > parolaDue.length){          // valuto se la parola due è piu lunga
     console.log(parolaUno);
     console.log(parolaDue);
+}else{
+    console.log(parolaUno + parolaDue + 'sono della stessa lunghezza') ;
 }
